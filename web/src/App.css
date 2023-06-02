@@ -1,0 +1,161 @@
+.grad{
+  background-image: linear-gradient(rgb(255, 128, 0), #ffffff, rgb(0, 128, 4));
+}
+.school_logo {
+  font-size: 50px;
+  color: #263f62;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: "Rubik",sans-serif ;
+  text-shadow: 4px 4px;
+ 
+}
+
+.school_affilation{
+  font-size: 18px;
+  color: rgb(40, 102, 216);
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1.2px 1.2px;
+}
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.header_shadow{
+  box-shadow: 0px 15px 10px -10px lightgray; 
+  background-color: #3d5f8f;
+
+}
+.nav_color{
+  color: white !important;
+}
+.data_link a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.data_link a:hover{
+  text-decoration: underline;
+  color: cyan;
+}
+.contact_text{
+  color: #f9fd14;
+}
+.contact_text_con{
+  color: #ffffff;
+}
+.allignment{
+ text-align: center;
+  color: #ffffff;
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+.footer-bg{
+  background-color:#3d5f8f !important;
+}
+.vision{
+  background-color: #bcc5b6;
+  background-image: linear-gradient(rgb(230, 217, 221), #ffffff, rgb(128, 151, 129)); 
+  
+}
+.allignment-about{
+ text-align: center;
+ color: hwb(0 0% 100%);
+}
+.login-button{
+  font-size: 20px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: none!important;
+    outline: none!important;
+    display: inline-block;
+    background: #0070bb;
+    border: 1px solid hsla(0,0%,100%,.25);
+    box-sizing: border-box;
+    border-radius: 46px;
+    width: 10%;
+}
+.login_container {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.loginsubmit{
+  font-size: 18px;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: none!important;
+  outline: none!important;
+  display: inline-block;
+  background: #0070bb;
+  border: 1px solid hsla(0,0%,100%,.25);
+  box-sizing:content-box;
+  border-radius: 20px;
+}
