@@ -3,9 +3,15 @@ import Footer from "../Layout/Footer";
 import Header from "../Layout/Header";
 import ImageSlider from './ImageSlider';
 import { SliderData } from './SliderData';
+import axios from "axios";
 
 function Home() {
   useEffect(() => {
+
+    // axios.get('http://127.0.0.1:8081/').then((response)=> {
+    // console.log(response);
+    //  });
+
     window.addEventListener("scroll", isSticky);
     return () => {
       window.removeEventListener("scroll", isSticky);
